@@ -1,14 +1,14 @@
-#include <stdio.h>
-#include <_putchar.c>
-#include <main.c>
+#include "main.c"
+#ifndef main
+#define main
 
 /**
- * main - Entry point
- * Description: '-putchar file'
+ * print_alphabet -void function
+ * Description: 'prints letters'
  * $Return: Always 0 (Success)
  */
 
-int main(void)
+int _putchar (char c);
 
 {
 	_putchar ('_');
