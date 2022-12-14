@@ -1,10 +1,10 @@
-#include "main.c"
+#include "main.h"
 #ifndef main
 #define main
 
 /**
  * print_alphabet -void function
- * Description: 'prints letters'
+ * Description: 'print
  * $Return: Always 0 (Success)
  */
 
