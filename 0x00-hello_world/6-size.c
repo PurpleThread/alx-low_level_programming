@@ -2,7 +2,6 @@
 
 /**
  * main - Entry point
- * Description: 'checking size of files'
  * Return: Always 0 (Success)
  */
 
