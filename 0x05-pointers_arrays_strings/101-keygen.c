@@ -11,24 +11,28 @@ int main(void)
 
 	for (a = 48; a < 58; a++)
 	{
-		for (c = b; c < 58; c++)
+		for (b=a; b < 58; b++)
 		{
-			if (a == b || b == c || a == c)
+			for (c = b; c < 58; c++)
 			{
-				continue;
-			}
-			putchar(a);
-			putchar(b);
-			putchar(c);
-
-			if (a == 55 && b == 56 && c == 57)
-			{
-				break;
-			}
-			else
-			{
-				putchar(',');
-				putchar(' ');
+				if (a == b || b == c || a == c)
+				{
+					continue;
+				}
+				putchar(a);
+				putchar(b);
+				putchar(c);
+				
+				if (a == 55 && b == 56 && c == 57)
+				{
+					break;
+				}
+				
+				else
+				{
+					putchar(',');
+					putchar(' ');
+				}
 			}
 		}
 	}
