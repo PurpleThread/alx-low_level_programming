@@ -3,20 +3,24 @@
 /**
  * *_strcpy - copies a string
  *
- * @*src: A pointer for the string to be written
- * @*dest: A pointer for the destination of the string to be written
+ * @*src: A pointerto a char that will be copied
+ * @*dest: A pointer to a char that will be copied
  * Return: dest
  */
+
 char *_strcpy(char *dest, char *src)
 {
-	char i, j;
+	char i;
 
-	for (i = 0, i <= j && *src[i] != '\0';)
-		i++;
-	*dest[i] = *src[i];
-	for ( ; i < j, i++; )
-		*dest[i] = '\0';
-	return (*dest);
+	i = 0;
+
+	while (src[i] != '\0')
+	{
+		dest[i] = src[i];
+	}
+	dest[i] = '\0';
+
+	return (dest);
 }
 
 
